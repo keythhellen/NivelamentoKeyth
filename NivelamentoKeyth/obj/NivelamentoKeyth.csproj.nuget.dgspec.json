@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Keyth Hellen\\source\\repos\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj": {}
+    "C:\\Users\\Keyth Hellen\\Downloads\\Capgemini\\NivelamentoTimRadarKeyth\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Keyth Hellen\\source\\repos\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj": {
+    "C:\\Users\\Keyth Hellen\\Downloads\\Capgemini\\NivelamentoTimRadarKeyth\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Keyth Hellen\\source\\repos\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj",
+        "projectUniqueName": "C:\\Users\\Keyth Hellen\\Downloads\\Capgemini\\NivelamentoTimRadarKeyth\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj",
         "projectName": "NivelamentoKeyth",
-        "projectPath": "C:\\Users\\Keyth Hellen\\source\\repos\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj",
+        "projectPath": "C:\\Users\\Keyth Hellen\\Downloads\\Capgemini\\NivelamentoTimRadarKeyth\\NivelamentoKeyth\\NivelamentoKeyth\\NivelamentoKeyth.csproj",
         "packagesPath": "C:\\Users\\Keyth Hellen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Keyth Hellen\\source\\repos\\NivelamentoKeyth\\NivelamentoKeyth\\obj\\",
+        "outputPath": "C:\\Users\\Keyth Hellen\\Downloads\\Capgemini\\NivelamentoTimRadarKeyth\\NivelamentoKeyth\\NivelamentoKeyth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Keyth Hellen\\AppData\\Roaming\\NuGet\\NuGet.Config",
