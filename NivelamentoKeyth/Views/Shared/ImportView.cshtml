@@ -1,0 +1,58 @@
+﻿@model NivelamentoKeyth.Models.ViewModels.ProductDeliveryViewModel
+@using NivelamentoKeyth.Models
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <h1>Entregas</h1>
+
+    @if (Model.ProductDeliveryList.Count > 0)
+    {
+        @Model.OldestDelivery.ToString("dd/MM/yyyy")
+        <table class="table">
+            @foreach(ProductDelivery delivery in Model.ProductDeliveryList) {
+            <thead>
+                <tr>
+                    <th> Data da Entrega </th>
+                    <th> Nome do Produto </th>
+                    <th> Quantidade </th>
+                    <th> Valor Unitário </th>
+                    <th> Valor da Entrega </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        @delivery.DeliveryDate.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>
+                        @delivery.ProductName
+                    </td>
+                    <td>
+                        @delivery.Amount.ToString("N0")
+                    </td>
+                    <td>
+                        @delivery.UnitaryValue.ToString("N2")
+                    </td>
+                    <td>
+                        @{
+                            var DeliveryValue = delivery.Amount * delivery.UnitaryValue;
+                        }
+                        @DeliveryValue.ToString("N2")
+                    </td>
+                </tr>
+            </tbody>
+            }
+        </table>
+    }
+</body>
+</html>
